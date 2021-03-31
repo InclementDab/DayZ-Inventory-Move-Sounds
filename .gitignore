@@ -8,7 +8,7 @@
 texHeaders.bin
 
 # DayZ Obfuscation
-DayZExpansion/Scripts/thing.obf
+*.obf
 
 # User Configuration
 user.cfg
