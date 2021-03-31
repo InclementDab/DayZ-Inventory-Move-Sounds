@@ -78,9 +78,7 @@ modded class PlayerBase
 		// todo server side
 		EffectSound sound = SEffectManager.PlaySoundOnObject(sounds.GetRandomElement(), this);
 		if (sound) {
-			float volume = GetItemArea(item) / 9; // just max sound at 3x3 item
-			Math.Clamp(volume, 0, 1);
-			sound.SetSoundVolume(volume);
+			sound.SetSoundVolume(Math.Clamp(GetItemArea(item) / 9, 0, 1));
 			sound.SetSoundAutodestroy(true);
 		}
 		
