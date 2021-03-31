@@ -1,0 +1,11 @@
+name = "InventoryMoveSounds";
+picture = "InventoryMoveSounds/gui/images/dayz_editor_icon_black.edds";
+logo = "InventoryMoveSounds/gui/images/dayz_editor_icon_black.edds";
+logoSmall = "InventoryMoveSounds/gui/images/dayz_editor_icon_black.edds";
+logoOver = "InventoryMoveSounds/gui/images/dayz_editor_icon_black.edds";
+tooltip = "InventoryMoveSounds";
+overview = "";
+action = "";
+author = "";
+authorID = "";
+version = "";
