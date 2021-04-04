@@ -3725,7 +3725,7 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"Grenade_pin_SoundSet"
+			"MagRifle_empty_in_SoundSet"
 		};	
 	};
 // Blade 
