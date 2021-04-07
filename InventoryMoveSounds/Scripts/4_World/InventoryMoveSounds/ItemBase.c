@@ -11,7 +11,7 @@ modded class ItemBase
 			return;
 		}
 		
-		if (GetGame().IsServer()) {
+		if (GetGame().IsServer() && GetGame().IsMultiplayer()) {
 			return;
 		}
 
