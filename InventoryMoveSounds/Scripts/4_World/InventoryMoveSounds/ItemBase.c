@@ -21,7 +21,7 @@ modded class ItemBase
 			return;
 		}
 		
-		if (vector.Distance(GetPosition(), GetGame().GetPlayer().GetPosition()) > MAX_SOUND_RANGE) {
+		if (GetGame().GetPlayer() && vector.Distance(GetPosition(), GetGame().GetPlayer().GetPosition()) > MAX_SOUND_RANGE) {
 			return;
 		}
 
