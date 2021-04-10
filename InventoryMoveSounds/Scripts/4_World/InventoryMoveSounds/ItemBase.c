@@ -1,5 +1,11 @@
 modded class ItemBase
 {
+	// Settings
+	static const float MAX_SOUND_RANGE = 25; // Mainly in place to stop bleed at long range
+	static const float MIN_SOUND_VOLUME = 0.4;
+	static const float MAX_SOUND_VOLUME = 0.9;
+	static const int MAX_ITEM_AREA = 24;
+	
 	override void EEItemLocationChanged(notnull InventoryLocation oldLoc, notnull InventoryLocation newLoc)
 	{
 		super.EEItemLocationChanged(oldLoc, newLoc);
@@ -14,6 +20,10 @@ modded class ItemBase
 		if (GetGame().IsServer() && GetGame().IsMultiplayer()) {
 			return;
 		}
+		
+		if (vector.Distance(GetPosition(), GetGame().GetPlayer().GetPosition()) > MAX_SOUND_RANGE) {
+			return;
+		}
 
 		PlayItemMoveSound(this);
 	}
@@ -23,15 +33,23 @@ modded class ItemBase
 		TStringArray sounds = {};
 		item.ConfigGetTextArray("ItemMoveSounds", sounds);		
 	
-		EffectSound sound = SEffectManager.PlaySoundOnObject(sounds.GetRandomElement(), this);
+		float sound_volume = Math.Clamp(GetItemArea(item) / MAX_ITEM_AREA, MIN_SOUND_VOLUME, MAX_SOUND_VOLUME);
+		EffectSound sound = SEffectManager.CreateSound(sounds.GetRandomElement(), GetPosition());
 		if (sound) {
-			sound.SetSoundVolume(Math.Clamp(GetItemArea(item) / 9, 0, 1));
 			sound.SetSoundAutodestroy(true);
+			sound.SoundPlay();
+			if (sound.IMSGetWave()) {
+				sound.IMSGetWave().SetVolume(sound_volume);
+			}
 		}
 		
-		EffectSound move_sound = SEffectManager.PlaySoundOnObject("IMS_Item_Move_Regular", this);
+		EffectSound move_sound = SEffectManager.CreateSound("IMS_Item_Move_Regular", GetPosition());
 		if (move_sound) {
 			move_sound.SetSoundAutodestroy(true);
+			move_sound.SoundPlay();
+			if (move_sound.IMSGetWave()) {
+				move_sound.IMSGetWave().SetVolume(sound_volume);
+			}
 		}
 	}
 	
