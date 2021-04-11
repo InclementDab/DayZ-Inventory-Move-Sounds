@@ -2,9 +2,9 @@ modded class ItemBase
 {
 	// Settings
 	static const float MAX_SOUND_RANGE = 25; // Mainly in place to stop bleed at long range
-	static const float MIN_SOUND_VOLUME = 0.4;
-	static const float MAX_SOUND_VOLUME = 0.9;
-	static const int MAX_ITEM_AREA = 24;
+	static const float MIN_SOUND_VOLUME = 0;
+	static const float MAX_SOUND_VOLUME = 1;
+	static const int MAX_ITEM_AREA = 12;
 	
 	override void EEItemLocationChanged(notnull InventoryLocation oldLoc, notnull InventoryLocation newLoc)
 	{
@@ -49,7 +49,7 @@ modded class ItemBase
 			move_sound.SetSoundAutodestroy(true);
 			move_sound.SoundPlay();
 			if (move_sound.IMSGetWave()) {
-				move_sound.IMSGetWave().SetVolume(sound_volume);
+				//move_sound.IMSGetWave().SetVolume(sound_volume);
 			}
 		}
 	}
