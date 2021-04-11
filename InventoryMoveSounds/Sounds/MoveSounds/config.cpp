@@ -67,6 +67,8 @@ class CfgVehicles
 			"IMS_Item_Move_Small",
 			"IMS_Item_Move_Regular"
 		};
+
+		ItemMoveSoundVolume = 1.0;
 	};
 	class ItemOptics: Inventory_Base
 	{
