@@ -4089,18 +4089,6 @@ class CfgSoundShaders
 		range = 25;
         radius = 0.01;
     };
-
-    class IMS_GrenadeBop_Snow_SoundShader: IMS_GrenadeBop_Base
-    {
-        samples[] = 
-        {
-            {"nst\ns_sounds\movement\snow\snow_walk_1", 1},
-            {"nst\ns_sounds\movement\snow\snow_sprint_8", 1},
-            {"nst\ns_sounds\movement\snow\snow_walk_3", 1},
-            {"nst\ns_sounds\movement\snow\snow_run_8", 1},
-            {"nst\ns_sounds\movement\snow\snow_sprint_5", 1}
-        };
-    };
 	
 	class IMS_GrenadeBop_Concrete_SoundShader: IMS_GrenadeBop_Base
     {
@@ -4176,11 +4164,6 @@ class CfgSoundSets
         distanceFilter = "defaultDistanceFilter";
     };
 
-    class IMS_GrenadeBop_Snow: IMS_GrenadeBop_Base
-    {
-        soundShaders[] = {"IMS_GrenadeBop_Snow_SoundShader"};
-    };
-    
     class IMS_GrenadeBop_Metal: IMS_GrenadeBop_Base
     {
         soundShaders[] = {"IMS_GrenadeBop_Metal_SoundShader"};
