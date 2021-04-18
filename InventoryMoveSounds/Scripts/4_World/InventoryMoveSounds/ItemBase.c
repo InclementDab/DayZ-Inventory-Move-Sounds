@@ -33,7 +33,7 @@ modded class ItemBase
 		TStringArray sounds = {};
 		item.ConfigGetTextArray("ItemMoveSounds", sounds);		
 	
-		int volume = item.ConfigGetInt("ItemMoveSoundVolume");
+		int volume = item.ConfigGetFloat("ItemMoveSoundVolume");
 		float sound_volume = Math.Clamp(GetItemArea(item) / MAX_ITEM_AREA, MIN_SOUND_VOLUME, MAX_SOUND_VOLUME);
 		EffectSound sound = SEffectManager.CreateSound(sounds.GetRandomElement(), GetPosition());
 		if (sound) {
