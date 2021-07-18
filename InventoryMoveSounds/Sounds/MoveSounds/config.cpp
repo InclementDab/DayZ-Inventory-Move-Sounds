@@ -2664,7 +2664,7 @@ class CfgVehicles
 			"purificationtablets_pickup_SoundSet"
 		};
 	};
-	class Epinephrine: Edible_Base
+	class Epinephrine: Inventory_Base
 	{
 		ItemMoveSounds[] = 
 		{
