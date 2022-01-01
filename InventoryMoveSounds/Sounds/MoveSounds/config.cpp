@@ -3023,21 +3023,21 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"crowbar_drop_SoundSet"
+			"pickUpBackPack_Plastic_Light_SoundSet"
 		};	
 	};
 	class KitchenKnife: Inventory_Base
 	{
 		ItemMoveSounds[] = 
 		{
-			"crowbar_drop_SoundSet"
+			"hatchet_pickup_light_SoundSet"
 		};	
 	};
 	class SteakKnife: Inventory_Base
 	{
 		ItemMoveSounds[] = 
 		{
-			"crowbar_drop_SoundSet"
+			"hatchet_pickup_light_SoundSet"
 		};	
 	};
 	class HayHook: Inventory_Base
@@ -3051,7 +3051,7 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"crowbar_drop_SoundSet"
+			"hatchet_pickup_light_SoundSet"
 		};	
 	};
 	class Mace: Inventory_Base
