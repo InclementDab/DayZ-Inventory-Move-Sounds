@@ -9,6 +9,11 @@ modded class ItemBase
 	override void EEItemLocationChanged(notnull InventoryLocation oldLoc, notnull InventoryLocation newLoc)
 	{
 		super.EEItemLocationChanged(oldLoc, newLoc);
+		
+		if (GetGame().IsServer() && GetGame().IsMultiplayer()) {
+			return;
+		}
+		
 		if (!oldLoc || !newLoc) {
 			return;
 		}
@@ -17,24 +22,15 @@ modded class ItemBase
 			return;
 		}
 		
-		if (GetGame().IsServer() && GetGame().IsMultiplayer()) {
-			return;
-		}
-		
 		if (GetGame().GetPlayer() && vector.Distance(GetPosition(), GetGame().GetPlayer().GetPosition()) > MAX_SOUND_RANGE) {
 			return;
 		}
 
-		PlayItemMoveSound(this);
-	}
+		array<string> sounds = {};
+		ConfigGetTextArray("ItemMoveSounds", sounds);		
 	
-	private void PlayItemMoveSound(notnull EntityAI item)
-	{
-		TStringArray sounds = {};
-		item.ConfigGetTextArray("ItemMoveSounds", sounds);		
-	
-		float volume = item.ConfigGetFloat("ItemMoveSoundVolume");
-		float sound_volume = Math.Clamp(GetItemArea(item) / MAX_ITEM_AREA, MIN_SOUND_VOLUME, MAX_SOUND_VOLUME);
+		float volume = ConfigGetFloat("ItemMoveSoundVolume");
+		float sound_volume = Math.Clamp(GetItemArea(this) / MAX_ITEM_AREA, MIN_SOUND_VOLUME, MAX_SOUND_VOLUME);
 		EffectSound sound = SEffectManager.CreateSound(sounds.GetRandomElement(), GetPosition());
 		if (sound) {
 			sound.SetSoundAutodestroy(true);
