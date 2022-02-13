@@ -4178,7 +4178,6 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"MagRifle_empty_in_SoundSet",
 			"Zucchini_pickup_SoundSet"
 		};	
 	};
