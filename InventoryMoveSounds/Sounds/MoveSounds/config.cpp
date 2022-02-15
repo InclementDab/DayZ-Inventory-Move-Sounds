@@ -67,8 +67,8 @@ class CfgVehicles
 			"IMS_Item_Move_Small",
 			"IMS_Item_Move_Regular"
 		};
-
-		ItemMoveSoundVolume = 1.0;
+		
+		ItemMoveSoundVolume = 0.85;
 	};
 	class ItemOptics: Inventory_Base
 	{
@@ -93,13 +93,21 @@ class CfgVehicles
 	class FishingRod_Base;
 	class Powered_Base;
 	class Trap_Base;
-	class ItemBarrel;
+	// class ItemBarrel;
 	class ItemSuppressor;
 	class FishingRod_Base_New: FishingRod_Base
 	{
 	};
 	class BaseBuildingBase: Inventory_Base{};
-//Backpackeru
+	
+
+//	██████╗░░█████╗░░█████╗░██╗░░██╗██████╗░░█████╗░░█████╗░██╗░░██╗░██████╗
+//	██╔══██╗██╔══██╗██╔══██╗██║░██╔╝██╔══██╗██╔══██╗██╔══██╗██║░██╔╝██╔════╝
+//	██████╦╝███████║██║░░╚═╝█████═╝░██████╔╝███████║██║░░╚═╝█████═╝░╚█████╗░
+//	██╔══██╗██╔══██║██║░░██╗██╔═██╗░██╔═══╝░██╔══██║██║░░██╗██╔═██╗░░╚═══██╗
+//	██████╦╝██║░░██║╚█████╔╝██║░╚██╗██║░░░░░██║░░██║╚█████╔╝██║░╚██╗██████╔╝
+//	╚═════╝░╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝╚═════╝░
+
 	class TaloonBag_ColorBase: Clothing
 	{
 		ItemMoveSounds[] = 
@@ -265,7 +273,16 @@ class CfgVehicles
 			"mediumtent_drop_SoundSet"
 		};
 	};
+
+
+//	██████╗░███████╗██╗░░░░░████████╗░██████╗
+//	██╔══██╗██╔════╝██║░░░░░╚══██╔══╝██╔════╝
+//	██████╦╝█████╗░░██║░░░░░░░░██║░░░╚█████╗░
+//	██╔══██╗██╔══╝░░██║░░░░░░░░██║░░░░╚═══██╗
+//	██████╦╝███████╗███████╗░░░██║░░░██████╔╝
+//	╚═════╝░╚══════╝╚══════╝░░░╚═╝░░░╚═════╝░
 // Belts oh no i get PTSD from daddy spanking me with it
+
 	class CivilianBelt: Clothing
 	{
 		ItemMoveSounds[] = 
@@ -286,8 +303,8 @@ class CfgVehicles
 	{	// does this even work ?
 		ItemMoveSounds[] = 
 		{
-			"WorkingGloves_pickup_SoundSet",
-			"WorkingGloves_drop_SoundSet"
+			"Shirt_pickup_SoundSet",
+			"Shirt_drop_SoundSet"
 		};
 	};
 	class NylonKnifeSheath: Clothing
@@ -306,7 +323,15 @@ class CfgVehicles
 			"WorkingGloves_drop_SoundSet"
 		};
 	};
-// Glasses
+
+
+//	░██████╗░██╗░░░░░░█████╗░░██████╗░██████╗███████╗░██████╗
+//	██╔════╝░██║░░░░░██╔══██╗██╔════╝██╔════╝██╔════╝██╔════╝
+//	██║░░██╗░██║░░░░░███████║╚█████╗░╚█████╗░█████╗░░╚█████╗░
+//	██║░░╚██╗██║░░░░░██╔══██║░╚═══██╗░╚═══██╗██╔══╝░░░╚═══██╗
+//	╚██████╔╝███████╗██║░░██║██████╔╝██████╔╝███████╗██████╔╝
+//	░╚═════╝░╚══════╝╚═╝░░╚═╝╚═════╝░╚═════╝░╚══════╝╚═════╝░
+
 	class SportGlasses_ColorBase: Clothing
 	{
 		ItemMoveSounds[] = 
@@ -371,7 +396,16 @@ class CfgVehicles
 			"PSO11Optic_pickup_SoundSet"
 		};
 	};
-// GLOVES - Wish we had long gloves in dayz love them irl
+
+
+//	░██████╗░██╗░░░░░░█████╗░██╗░░░██╗███████╗░██████╗
+//	██╔════╝░██║░░░░░██╔══██╗██║░░░██║██╔════╝██╔════╝
+//	██║░░██╗░██║░░░░░██║░░██║╚██╗░██╔╝█████╗░░╚█████╗░
+//	██║░░╚██╗██║░░░░░██║░░██║░╚████╔╝░██╔══╝░░░╚═══██╗
+//	╚██████╔╝███████╗╚█████╔╝░░╚██╔╝░░███████╗██████╔╝
+//	░╚═════╝░╚══════╝░╚════╝░░░░╚═╝░░░╚══════╝╚═════╝░
+//	Wish we had long gloves in dayz love them irl
+
 	class WorkingGloves_ColorBase: Clothing
 	{
 		ItemMoveSounds[] = 
@@ -420,7 +454,16 @@ class CfgVehicles
 			"WorkingGloves_drop_SoundSet"
 		};
 	};
-//HEADWEAR IMA WEAR YOUR HEAD
+
+
+//	██╗░░██╗███████╗░█████╗░██████╗░░██╗░░░░░░░██╗███████╗░█████╗░██████╗░
+//	██║░░██║██╔════╝██╔══██╗██╔══██╗░██║░░██╗░░██║██╔════╝██╔══██╗██╔══██╗
+//	███████║█████╗░░███████║██║░░██║░╚██╗████╗██╔╝█████╗░░███████║██████╔╝
+//	██╔══██║██╔══╝░░██╔══██║██║░░██║░░████╔═████║░██╔══╝░░██╔══██║██╔══██╗
+//	██║░░██║███████╗██║░░██║██████╔╝░░╚██╔╝░╚██╔╝░███████╗██║░░██║██║░░██║
+//	╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝╚═════╝░░░░╚═╝░░░╚═╝░░╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝
+//	HEADWEAR IMA WEAR YOUR HEAD
+
 	class BallisticHelmet_ColorBase: Clothing
 	{
 		ItemMoveSounds[] = 
@@ -512,14 +555,6 @@ class CfgVehicles
 			"Shirt_drop_SoundSet"
 		};
 	};
-	class BandanaHead_ColorBase: Clothing
-	{
-		ItemMoveSounds[] = 
-		{
-			"Shirt_pickup_SoundSet",
-			"Shirt_drop_SoundSet"
-		};
-	};
 	class RadarCap_ColorBase: Clothing
 	{
 		ItemMoveSounds[] = 
@@ -556,8 +591,8 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"Shirt_pickup_SoundSet",
-			"Shirt_drop_SoundSet"
+			"WorkingGloves_pickup_SoundSet",
+			"WorkingGloves_drop_SoundSet"
 		};
 	};
 	class BoonieHat_ColorBase: Clothing
@@ -654,8 +689,8 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"Shirt_pickup_SoundSet",
-			"Shirt_drop_SoundSet"
+			"WorkingGloves_pickup_SoundSet",
+			"WorkingGloves_drop_SoundSet"
 		};
 	};
 	class MedicalScrubsHat_ColorBase: Clothing
@@ -670,8 +705,9 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"GreatHelm_drop_SoundSet"
+			"pickUpPot_SoundSet"
 		};
+		ItemMoveSoundVolume = 1.25;
 	};
 	class Ssh68Helmet: Clothing
 	{ // Penis helmet
@@ -724,6 +760,22 @@ class CfgVehicles
 			"Shirt_drop_SoundSet"
 		};
 	};
+	class WitchHood_ColorBase: Clothing
+	{
+		ItemMoveSounds[] = 
+		{
+			"Shirt_pickup_SoundSet",
+			"Shirt_drop_SoundSet"
+		};
+	};
+	class WitchHat: Clothing
+	{
+		ItemMoveSounds[] = 
+		{
+			"Shirt_pickup_SoundSet",
+			"Shirt_drop_SoundSet"
+		};
+	};
 	class Mich2001Helmet: Clothing
 	{
 		ItemMoveSounds[] = 
@@ -731,7 +783,15 @@ class CfgVehicles
 			"BallisticHelmet_drop_SoundSet"
 		};
 	};
-// MASKS
+
+
+//	███╗░░░███╗░█████╗░░██████╗██╗░░██╗░██████╗
+//	████╗░████║██╔══██╗██╔════╝██║░██╔╝██╔════╝
+//	██╔████╔██║███████║╚█████╗░█████═╝░╚█████╗░
+//	██║╚██╔╝██║██╔══██║░╚═══██╗██╔═██╗░░╚═══██╗
+//	██║░╚═╝░██║██║░░██║██████╔╝██║░╚██╗██████╔╝
+//	╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝╚═════╝░
+
 	class GasMask: Clothing
 	{
 		ItemMoveSounds[] = 
@@ -748,6 +808,14 @@ class CfgVehicles
 		};
 	};
 	class NioshFaceMask: Clothing
+	{
+		ItemMoveSounds[] = 
+		{
+			"Shirt_pickup_SoundSet",
+			"Shirt_drop_SoundSet"
+		};
+	};
+	class BalaclavaMask_ColorBase: Clothing
 	{
 		ItemMoveSounds[] = 
 		{
@@ -780,7 +848,8 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"DarkMotoHelmet_pickup_SoundSet"
+			"Shirt_pickup_SoundSet",
+			"Shirt_drop_SoundSet"
 		};
 	};
 	class SantasBeard: Clothing
@@ -814,7 +883,19 @@ class CfgVehicles
 			"DarkMotoHelmet_pickup_SoundSet"
 		};
 	};
-// PANTS Onee-chan i can see your pantsu >////<
+	class CrookedNose: Clothing
+	{	//Kinky
+	};
+
+
+//	██████╗░░█████╗░███╗░░██╗████████╗░██████╗
+//	██╔══██╗██╔══██╗████╗░██║╚══██╔══╝██╔════╝
+//	██████╔╝███████║██╔██╗██║░░░██║░░░╚█████╗░
+//	██╔═══╝░██╔══██║██║╚████║░░░██║░░░░╚═══██╗
+//	██║░░░░░██║░░██║██║░╚███║░░░██║░░░██████╔╝
+//	╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚══╝░░░╚═╝░░░╚═════╝░
+//	Onee-chan i can see your pantsu >////<
+
 	class Jeans_ColorBase: Clothing
 	{
 		ItemMoveSounds[] = 
@@ -907,8 +988,8 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"Shirt_pickup_SoundSet",
-			"Shirt_drop_SoundSet"
+			"SmershVest_pickup_SoundSet",
+			"SmershVest_drop_SoundSet"
 		};
 	};
 	class PrisonUniformPants: Clothing
@@ -923,8 +1004,8 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"Shirt_pickup_SoundSet",
-			"Shirt_drop_SoundSet"
+			"WorkingGloves_pickup_SoundSet",
+			"WorkingGloves_drop_SoundSet"
 		};
 	};
 	class MedicalScrubsPants_ColorBase: Clothing
@@ -999,7 +1080,18 @@ class CfgVehicles
 			"Shirt_drop_SoundSet"
 		};
 	};
-// Shoes - can we dig with shoes in dayz ? -- should add that to my servermod its a good idea
+
+
+//	░██████╗██╗░░██╗░█████╗░███████╗░██████╗
+//	██╔════╝██║░░██║██╔══██╗██╔════╝██╔════╝
+//	╚█████╗░███████║██║░░██║█████╗░░╚█████╗░
+//	░╚═══██╗██╔══██║██║░░██║██╔══╝░░░╚═══██╗
+//	██████╔╝██║░░██║╚█████╔╝███████╗██████╔╝
+//	╚═════╝░╚═╝░░╚═╝░╚════╝░╚══════╝╚═════╝░
+//	can we dig with shoes in dayz ? -- should add that to my servermod its a good idea
+
+//	hmm... and what about kicking someone's ass with a shoe... That would be good too, wouldn't it?
+//	Personally, I would use it daily and with pleasure =) - George
 
 	class AthleticShoes_ColorBase: Clothing
 	{
@@ -1040,7 +1132,7 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"AthleticShoes_pickup_SoundSet"
+			"AthleticShoes_drop_SoundSet"
 		};
 	};
 	class DressShoes_ColorBase: Clothing
@@ -1075,7 +1167,8 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"AthleticShoes_pickup_SoundSet"
+			"WorkingGloves_pickup_SoundSet",
+			"WorkingGloves_drop_SoundSet"
 		};
 	};
 	class Sneakers_ColorBase: Clothing
@@ -1106,19 +1199,30 @@ class CfgVehicles
 			"AthleticShoes_drop_SoundSet"
 		};
 	};
-// Tops - personally im a bottom but everyone to themself
+
+
+//	████████╗░█████╗░██████╗░░██████╗
+//	╚══██╔══╝██╔══██╗██╔══██╗██╔════╝
+//	░░░██║░░░██║░░██║██████╔╝╚█████╗░
+//	░░░██║░░░██║░░██║██╔═══╝░░╚═══██╗
+//	░░░██║░░░╚█████╔╝██║░░░░░██████╔╝
+//	░░░╚═╝░░░░╚════╝░╚═╝░░░░░╚═════╝░
+//	personally im a bottom but everyone to themself
+
 	class Armband_ColorBase: Clothing
 	{
 		ItemMoveSounds[] = 
 		{
-			"AthleticShoes_drop_SoundSet"
+			"Shirt_pickup_SoundSet",
+			"Shirt_drop_SoundSet"
 		};
 	};
 	class Sweater_ColorBase: Clothing
 	{
 		ItemMoveSounds[] = 
 		{
-			"AthleticShoes_drop_SoundSet"
+			"Shirt_pickup_SoundSet",
+			"Shirt_drop_SoundSet"
 		};
 	};
 	class Shirt_ColorBase: Clothing
@@ -1197,8 +1301,8 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"Shirt_pickup_SoundSet",
-			"Shirt_drop_SoundSet"
+			"WorkingGloves_pickup_SoundSet",
+			"WorkingGloves_drop_SoundSet"
 		};
 	};
 	class WoolCoat_ColorBase: Clothing
@@ -1245,8 +1349,8 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"Shirt_pickup_SoundSet",
-			"Shirt_drop_SoundSet"
+			"SmershVest_pickup_SoundSet",
+			"SmershVest_drop_SoundSet"
 		};
 	};
 	class PrisonUniformJacket: Clothing
@@ -1285,8 +1389,8 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"Shirt_pickup_SoundSet",
-			"Shirt_drop_SoundSet"
+			"WorkingGloves_pickup_SoundSet",
+			"WorkingGloves_drop_SoundSet"
 		};
 	};
 	class HuntingJacket_ColorBase: Clothing
@@ -1405,11 +1509,19 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"Shirt_pickup_SoundSet",
-			"Shirt_drop_SoundSet"
+			"WorkingGloves_pickup_SoundSet",
+			"WorkingGloves_drop_SoundSet"
 		};
 	};	
-// Vest
+
+
+//	██╗░░░██╗███████╗░██████╗████████╗░██████╗
+//	██║░░░██║██╔════╝██╔════╝╚══██╔══╝██╔════╝
+//	╚██╗░██╔╝█████╗░░╚█████╗░░░░██║░░░╚█████╗░
+//	░╚████╔╝░██╔══╝░░░╚═══██╗░░░██║░░░░╚═══██╗
+//	░░╚██╔╝░░███████╗██████╔╝░░░██║░░░██████╔╝
+//	░░░╚═╝░░░╚══════╝╚═════╝░░░░╚═╝░░░╚═════╝░
+
 	class PlateCarrierVest: Clothing
 	{
 		ItemMoveSounds[] = 
@@ -1462,8 +1574,8 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"Shirt_pickup_SoundSet",
-			"Shirt_drop_SoundSet"
+			"WorkingGloves_pickup_SoundSet",
+			"WorkingGloves_drop_SoundSet"
 		};
 	};
 	class HighCapacityVest_ColorBase: Clothing
@@ -1478,8 +1590,8 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"Shirt_pickup_SoundSet",
-			"Shirt_drop_SoundSet"
+			"WorkingGloves_pickup_SoundSet",
+			"WorkingGloves_drop_SoundSet"
 		};
 	};
 	class HuntingVest: Clothing
@@ -1498,15 +1610,31 @@ class CfgVehicles
 			"Shirt_drop_SoundSet"
 		};
 	};
-// BOOK
+
+
+//	██████╗░░█████╗░░█████╗░██╗░░██╗░██████╗
+//	██╔══██╗██╔══██╗██╔══██╗██║░██╔╝██╔════╝
+//	██████╦╝██║░░██║██║░░██║█████═╝░╚█████╗░
+//	██╔══██╗██║░░██║██║░░██║██╔═██╗░░╚═══██╗
+//	██████╦╝╚█████╔╝╚█████╔╝██║░╚██╗██████╔╝
+//	╚═════╝░░╚════╝░░╚════╝░╚═╝░░╚═╝╚═════╝░
+
 	class ItemBook: Book_Base
 	{
 		ItemMoveSounds[] = 
 		{
-			"taloonbag_drop_SoundSet"
+			"pickUpPaper_SoundSet"
 		};
 	};
-// CAMPING
+
+
+//	░█████╗░░█████╗░███╗░░░███╗██████╗░██╗███╗░░██╗░██████╗░
+//	██╔══██╗██╔══██╗████╗░████║██╔══██╗██║████╗░██║██╔════╝░
+//	██║░░╚═╝███████║██╔████╔██║██████╔╝██║██╔██╗██║██║░░██╗░
+//	██║░░██╗██╔══██║██║╚██╔╝██║██╔═══╝░██║██║╚████║██║░░╚██╗
+//	╚█████╔╝██║░░██║██║░╚═╝░██║██║░░░░░██║██║░╚███║╚██████╔╝
+//	░╚════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░░░░╚═╝╚═╝░░╚══╝░╚═════╝░
+
 	class MediumTent: TentBase
 	{
 		ItemMoveSounds[] = 
@@ -1569,6 +1697,7 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
+			"barbedwire_putdown_1_SoundSet",
 			"FenceKit_crafting_1_SoundSet"
 		};
 	};
@@ -1576,14 +1705,7 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"pickUpShovelLight_SoundSet"
-		};
-	};
-	class CombinationLock4: CombinationLock
-	{
-		ItemMoveSounds[] = 
-		{
-			"pickUpShovelLight_SoundSet"
+			"IMS_CombinationLock_SoundSet"
 		};
 	};
 	class CamoNet: Inventory_Base
@@ -1630,7 +1752,7 @@ class CfgVehicles
 		{
 			"powergenerator_movement_walk_SoundSet",
 			"pickUpPowerGenerator_SoundSet",
-			"powergenerator_drop_SoundSet"
+			// "powergenerator_drop_SoundSet"	Too loud when just moving item around and plus on that it plays 2 same loud sounds when you drop it on the ground, earrape ftw O.O		 
 		};
 	};
 	class PowerGenerator: Inventory_Base
@@ -1639,7 +1761,7 @@ class CfgVehicles
 		{
 			"powergenerator_movement_walk_SoundSet",
 			"pickUpPowerGenerator_SoundSet",
-			"powergenerator_drop_SoundSet"
+			// "powergenerator_drop_SoundSet"	earrape again O.O
 		};
 	};
 	class CableReel: Inventory_Base
@@ -1656,12 +1778,11 @@ class CfgVehicles
 			"batterycharger_drop_SoundSet"
 		};
 	};
-	class HescoBox: Inventory_Base
+	class HescoBox: Inventory_Base  // I hope they add it back someday :(
 	{
 		ItemMoveSounds[] = 
 		{
-			"Shirt_pickup_SoundSet",
-			"Shirt_drop_SoundSet"
+			"powergenerator_movement_walk_SoundSet"
 		};
 	};
 	class Fabric: Inventory_Base
@@ -1670,6 +1791,14 @@ class CfgVehicles
 		{
 			"Shirt_pickup_SoundSet",
 			"Shirt_drop_SoundSet"
+		};
+	};
+	class ShelterKit: Inventory_Base
+	{
+		ItemMoveSounds[] = 
+		{
+			"hatchet_pickup_SoundSet",
+			"baseballbat_drop_SoundSet"
 		};
 	};
 	class ShelterBase: TentBase
@@ -1683,7 +1812,8 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"FenceKit_crafting_1_SoundSet"
+			"hatchet_pickup_SoundSet",
+			"baseballbat_drop_SoundSet"
 		};
 	};
 	class Flag_Base: Inventory_Base
@@ -1694,8 +1824,23 @@ class CfgVehicles
 			"Shirt_drop_SoundSet"
 		};
 	};
-// Consumeables
+
+
+//	░█████╗░░█████╗░███╗░░██╗░██████╗██╗░░░██╗███╗░░░███╗░█████╗░██████╗░██╗░░░░░███████╗░██████╗
+//	██╔══██╗██╔══██╗████╗░██║██╔════╝██║░░░██║████╗░████║██╔══██╗██╔══██╗██║░░░░░██╔════╝██╔════╝
+//	██║░░╚═╝██║░░██║██╔██╗██║╚█████╗░██║░░░██║██╔████╔██║███████║██████╦╝██║░░░░░█████╗░░╚█████╗░
+//	██║░░██╗██║░░██║██║╚████║░╚═══██╗██║░░░██║██║╚██╔╝██║██╔══██║██╔══██╗██║░░░░░██╔══╝░░░╚═══██╗
+//	╚█████╔╝╚█████╔╝██║░╚███║██████╔╝╚██████╔╝██║░╚═╝░██║██║░░██║██████╦╝███████╗███████╗██████╔╝
+//	░╚════╝░░╚════╝░╚═╝░░╚══╝╚═════╝░░╚═════╝░╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═════╝░╚══════╝╚══════╝╚═════╝░
+
 	class Paper: Inventory_Base
+	{
+		ItemMoveSounds[] = 
+		{
+			"pickUpPaper_SoundSet"
+		};
+	};
+	class GiftWrapPaper: Inventory_Base
 	{
 		ItemMoveSounds[] = 
 		{
@@ -1725,17 +1870,24 @@ class CfgVehicles
 	};
 	class Stone: Inventory_Base
 	{
-		// there are no stone sounds in the game
-		
+		ItemMoveSounds[] = 
+		{
+			"cp_rock_drop_Soundset"		// there are no stone sounds in the game
+		};								// I'm claustrophobic, you know... I just dug some up for you.
 	};
 	class SmallStone: Inventory_Base
 	{
+		ItemMoveSounds[] = 
+		{
+			"cp_rock_drop_Soundset"
+		};
+		ItemMoveSoundVolume = 0.5;
 	};
 	class Firewood: Inventory_Base
 	{
 		ItemMoveSounds[] = 
 		{
-			"woodenlog_drop_SoundSet"
+			"bark_drop_SoundSet"
 		};
 	};
 	class Battery9V: Inventory_Base
@@ -1777,7 +1929,7 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"pickUpShovelLight_SoundSet"
+			"SodaCan_pickup_SoundSet"
 		};
 	};
 	class Matchbox: Inventory_Base
@@ -1824,19 +1976,15 @@ class CfgVehicles
 	};
 	class Hook: Inventory_Base
 	{
-		ItemMoveSounds[] = 
-		{
-			"hatchet_pickup_SoundSet"
-		};
 	};
 	class BoneHook: Inventory_Base
 	{
 	};
 	class Bark_ColorBase: Inventory_Base
 	{	// woof
+		// *MEEOOOOOWW* *SCRATCH* *SCRATCH*
 		ItemMoveSounds[] = 
 		{
-			"bark_pickup_SoundSet",
 			"bark_drop_SoundSet"
 		};
 	};
@@ -1888,17 +2036,29 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"crowbar_drop_SoundSet"
+			"pickUpBarrelLight_SoundSet"
 		};
 	};
 	class WoodenLog: Inventory_Base
 	{
 		ItemMoveSounds[] = 
 		{
-			"woodenlog_pickup_SoundSet"
+			"bark_drop_SoundSet"
 		};
 	};
-//Containers to contain your contaigous containus
+	class EasterEgg: Inventory_Base
+	{
+	};
+
+
+//	░█████╗░░█████╗░███╗░░██╗████████╗░█████╗░██╗███╗░░██╗███████╗██████╗░░██████╗
+//	██╔══██╗██╔══██╗████╗░██║╚══██╔══╝██╔══██╗██║████╗░██║██╔════╝██╔══██╗██╔════╝
+//	██║░░╚═╝██║░░██║██╔██╗██║░░░██║░░░███████║██║██╔██╗██║█████╗░░██████╔╝╚█████╗░
+//	██║░░██╗██║░░██║██║╚████║░░░██║░░░██╔══██║██║██║╚████║██╔══╝░░██╔══██╗░╚═══██╗
+//	╚█████╔╝╚█████╔╝██║░╚███║░░░██║░░░██║░░██║██║██║░╚███║███████╗██║░░██║██████╔╝
+//	░╚════╝░░╚════╝░╚═╝░░╚══╝░░░╚═╝░░░╚═╝░░╚═╝╚═╝╚═╝░░╚══╝╚══════╝╚═╝░░╚═╝╚═════╝░
+//	Containers to contain your contaigous containus
+
 	class Barrel_ColorBase: Container_Base
 	{
 		ItemMoveSounds[] = 
@@ -1977,7 +2137,15 @@ class CfgVehicles
 			"pickUpCourierBag_SoundSet"
 		};
 	};
-// Cooking
+
+
+//	░█████╗░░█████╗░░█████╗░██╗░░██╗██╗███╗░░██╗░██████╗░
+//	██╔══██╗██╔══██╗██╔══██╗██║░██╔╝██║████╗░██║██╔════╝░
+//	██║░░╚═╝██║░░██║██║░░██║█████═╝░██║██╔██╗██║██║░░██╗░
+//	██║░░██╗██║░░██║██║░░██║██╔═██╗░██║██║╚████║██║░░╚██╗
+//	╚█████╔╝╚█████╔╝╚█████╔╝██║░╚██╗██║██║░╚███║╚██████╔╝
+//	░╚════╝░░╚════╝░░╚════╝░╚═╝░░╚═╝╚═╝╚═╝░░╚══╝░╚═════╝░
+
 	class FireplaceBase: Inventory_Base
 	{
 		ItemMoveSounds[] = 
@@ -2008,6 +2176,14 @@ class CfgVehicles
 			"pickUpPot_SoundSet",
 			"pickUpPotLight_SoundSet"
 		};
+	};
+	class Cauldron: Bottle_Base
+	{
+		ItemMoveSounds[] = 
+		{
+			"pickUpPotLight_SoundSet"
+		};
+		ItemMoveSoundVolume = 1.50;
 	};
 	class PortableGasStove: Inventory_Base
 	{
@@ -2044,7 +2220,15 @@ class CfgVehicles
 			"crowbar_drop_SoundSet"
 		};
 	};
-// Crafting
+
+
+//	░█████╗░██████╗░░█████╗░███████╗████████╗██╗███╗░░██╗░██████╗░
+//	██╔══██╗██╔══██╗██╔══██╗██╔════╝╚══██╔══╝██║████╗░██║██╔════╝░
+//	██║░░╚═╝██████╔╝███████║█████╗░░░░░██║░░░██║██╔██╗██║██║░░██╗░
+//	██║░░██╗██╔══██╗██╔══██║██╔══╝░░░░░██║░░░██║██║╚████║██║░░╚██╗
+//	╚█████╔╝██║░░██║██║░░██║██║░░░░░░░░██║░░░██║██║░╚███║╚██████╔╝
+//	░╚════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░░░░╚═╝░░░╚═╝╚═╝░░╚══╝░╚═════╝░
+
 	class BurlapSack: Inventory_Base
 	{
 		ItemMoveSounds[] = 
@@ -2063,6 +2247,7 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
+			"barbedwire_putdown_1_SoundSet",
 			"FenceKit_crafting_1_SoundSet"
 		};
 	};
@@ -2070,8 +2255,7 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"hatchet_pickup_SoundSet",
-			"baseballbat_drop_SoundSet"
+			"bark_pickup_SoundSet"
 		};
 	};
 	class Torch: Inventory_Base
@@ -2127,7 +2311,15 @@ class CfgVehicles
 			"baseballbat_drop_SoundSet"
 		};
 	};
-// Cultivation
+
+
+//	░█████╗░██╗░░░██╗██╗░░░░░████████╗██╗██╗░░░██╗░█████╗░████████╗██╗░█████╗░███╗░░██╗
+//	██╔══██╗██║░░░██║██║░░░░░╚══██╔══╝██║██║░░░██║██╔══██╗╚══██╔══╝██║██╔══██╗████╗░██║
+//	██║░░╚═╝██║░░░██║██║░░░░░░░░██║░░░██║╚██╗░██╔╝███████║░░░██║░░░██║██║░░██║██╔██╗██║
+//	██║░░██╗██║░░░██║██║░░░░░░░░██║░░░██║░╚████╔╝░██╔══██║░░░██║░░░██║██║░░██║██║╚████║
+//	╚█████╔╝╚██████╔╝███████╗░░░██║░░░██║░░╚██╔╝░░██║░░██║░░░██║░░░██║╚█████╔╝██║░╚███║
+//	░╚════╝░░╚═════╝░╚══════╝░░░╚═╝░░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░╚════╝░╚═╝░░╚══╝
+
 	class SeedBase: Inventory_Base
 	{	// gimme your seed onii-chan
 		ItemMoveSounds[] = 
@@ -2184,7 +2376,16 @@ class CfgVehicles
 			"pickUpBackPack_Plastic_Light_SoundSet"
 		};
 	};
-// Drink - MY BLADE BE THIRSTY - Hearthstone joke in dayz code ?
+
+
+//	██████╗░██████╗░██╗███╗░░██╗██╗░░██╗░██████╗
+//	██╔══██╗██╔══██╗██║████╗░██║██║░██╔╝██╔════╝
+//	██║░░██║██████╔╝██║██╔██╗██║█████═╝░╚█████╗░
+//	██║░░██║██╔══██╗██║██║╚████║██╔═██╗░░╚═══██╗
+//	██████╔╝██║░░██║██║██║░╚███║██║░╚██╗██████╔╝
+//	╚═════╝░╚═╝░░╚═╝╚═╝╚═╝░░╚══╝╚═╝░░╚═╝╚═════╝░
+//	MY BLADE BE THIRSTY - Hearthstone joke in dayz code ?
+
 	class Canteen: Bottle_Base
 	{
 		ItemMoveSounds[] = 
@@ -2203,7 +2404,7 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"SodaCan_drop_SoundSet"
+			"GlassBottle_in_C_SoundSet"
 		};
 	};
 	class WaterPouch_ColorBase: Bottle_Base
@@ -2227,7 +2428,16 @@ class CfgVehicles
 			"SodaCan_pickup_SoundSet"
 		};
 	};
-//FUUUUD
+
+
+//	███████╗░█████╗░░█████╗░██████╗░
+//	██╔════╝██╔══██╗██╔══██╗██╔══██╗
+//	█████╗░░██║░░██║██║░░██║██║░░██║
+//	██╔══╝░░██║░░██║██║░░██║██║░░██║
+//	██║░░░░░╚█████╔╝╚█████╔╝██████╔╝
+//	╚═╝░░░░░░╚════╝░░╚════╝░╚═════╝░
+//	FUUUUD
+
 	class BoxCerealCrunchin: Edible_Base
 	{
 		ItemMoveSounds[] = 
@@ -2271,6 +2481,27 @@ class CfgVehicles
 			"Marmalade_pickup_SoundSet"
 		};
 	};
+	class Honey: Edible_Base
+	{
+		ItemMoveSounds[] = 
+		{
+			"Marmalade_pickup_SoundSet"
+		};
+	};
+	class Zagorky_ColorBase: Edible_Base
+	{
+		ItemMoveSounds[] = 
+		{
+			"Eating_TakeFood_Soundset"
+		};
+	};
+	class Snack_ColorBase: Edible_Base
+	{
+		ItemMoveSounds[] = 
+		{
+			"pickUpBloodBag_Soundshader"
+		};
+	};	
 	class BakedBeansCan: Edible_Base
 	{
 		ItemMoveSounds[] = 
@@ -2331,28 +2562,70 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"BakedBeansCan_pickup_SoundSet"
+			"IMS_SmallCan_SoundSet"
 		};
 	};
 	class SardinesCan_Opened: Edible_Base
 	{
 		ItemMoveSounds[] = 
 		{
-			"BakedBeansCan_pickup_SoundSet"
+			"IMS_SmallCan_SoundSet"
 		};
 	};
 	class TunaCan: Edible_Base
 	{
 		ItemMoveSounds[] = 
 		{
-			"BakedBeansCan_pickup_SoundSet"
+			"IMS_SmallCan_SoundSet"
 		};
 	};
 	class TunaCan_Opened: Edible_Base
 	{
 		ItemMoveSounds[] = 
 		{
+			"IMS_SmallCan_SoundSet"
+		};
+	};
+	class FoodCan_250g_ColorBase: Edible_Base
+	{
+		ItemMoveSounds[] = 
+		{
+			"IMS_SmallCan_SoundSet"
+		};
+	};
+	class FoodCan_250g_Opened_ColorBase: Edible_Base
+	{
+		ItemMoveSounds[] = 
+		{
+			"IMS_SmallCan_SoundSet"
+		};
+	};
+	class UnknownFoodCan: Edible_Base
+	{
+		ItemMoveSounds[] = 
+		{
 			"BakedBeansCan_pickup_SoundSet"
+		};
+	};
+	class UnknownFoodCan_Opened: Edible_Base
+	{
+		ItemMoveSounds[] = 
+		{
+			"BakedBeansCan_pickup_SoundSet"
+		};
+	};
+	class FoodCan_100g_ColorBase: Edible_Base
+	{
+		ItemMoveSounds[] = 
+		{
+			"IMS_TinyCan_SoundSet"
+		};
+	};
+	class FoodCan_100g_Opened_ColorBase: Edible_Base
+	{
+		ItemMoveSounds[] = 
+		{
+			"IMS_TinyCan_SoundSet"
 		};
 	};
 	class Apple: Edible_Base
@@ -2574,6 +2847,7 @@ class CfgVehicles
 	};
 	class Carp: Edible_Base
 	{	// FISH
+		// ... Our only wish, To catch a fish, So juicy-sweet! =)
 		ItemMoveSounds[] = 
 		{
 			"Eating_TakeFood_Soundset"
@@ -2600,6 +2874,20 @@ class CfgVehicles
 			"Eating_TakeFood_Soundset"
 		};
 	};
+	class DeadChicken_ColorBase: Edible_Base
+	{
+		ItemMoveSounds[] = 
+		{
+			"Eating_TakeFood_Soundset"
+		};
+	};
+	class DeadRabbit: Edible_Base
+	{
+		ItemMoveSounds[] = 
+		{
+			"Eating_TakeFood_Soundset"
+		};
+	};
 	class MushroomBase: Edible_Base
 	{
 		ItemMoveSounds[] = 
@@ -2607,7 +2895,15 @@ class CfgVehicles
 			"Eating_TakeFood_Soundset"
 		};
 	};
-// Medical
+
+
+//	███╗░░░███╗███████╗██████╗░██╗░█████╗░░█████╗░██╗░░░░░
+//	████╗░████║██╔════╝██╔══██╗██║██╔══██╗██╔══██╗██║░░░░░
+//	██╔████╔██║█████╗░░██║░░██║██║██║░░╚═╝███████║██║░░░░░
+//	██║╚██╔╝██║██╔══╝░░██║░░██║██║██║░░██╗██╔══██║██║░░░░░
+//	██║░╚═╝░██║███████╗██████╔╝██║╚█████╔╝██║░░██║███████╗
+//	╚═╝░░░░░╚═╝╚══════╝╚═════╝░╚═╝░╚════╝░╚═╝░░╚═╝╚══════╝
+
 	class BandageDressing: Inventory_Base
 	{
 		ItemMoveSounds[] = 
@@ -2626,7 +2922,7 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"SodaCan_drop_SoundSet"
+			"GlassBottle_in_C_SoundSet"
 		};
 	};
 	class PurificationTablets: Edible_Base
@@ -2657,6 +2953,13 @@ class CfgVehicles
 			"vitaminbottle_pickup_SoundSet"
 		};
 	};
+	class IodineTincture: Edible_Base
+	{
+		ItemMoveSounds[] = 
+		{
+			"GlassBottle_in_C_SoundSet"
+		};
+	};
 	class TetracyclineAntibiotics: Edible_Base
 	{
 		ItemMoveSounds[] = 
@@ -2672,6 +2975,13 @@ class CfgVehicles
 		};
 	};
 	class Morphine: Inventory_Base
+	{
+		ItemMoveSounds[] = 
+		{
+			"pickUpBackPack_Plastic_Light_SoundSet"
+		};
+	};
+	class AntiChemInjector: Inventory_Base
 	{
 		ItemMoveSounds[] = 
 		{
@@ -2767,7 +3077,7 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"pickUpCableReelLight_SoundSet"
+			"injectionvial_pickup_SoundSet"
 		};
 	};
 	class Defibrillator: Inventory_Base
@@ -2784,7 +3094,15 @@ class CfgVehicles
 			"sewingkit_pickup_SoundSet"
 		};
 	};
-// Navigation
+
+
+//	███╗░░██╗░█████╗░██╗░░░██╗██╗░██████╗░░█████╗░████████╗██╗░█████╗░███╗░░██╗
+//	████╗░██║██╔══██╗██║░░░██║██║██╔════╝░██╔══██╗╚══██╔══╝██║██╔══██╗████╗░██║
+//	██╔██╗██║███████║╚██╗░██╔╝██║██║░░██╗░███████║░░░██║░░░██║██║░░██║██╔██╗██║
+//	██║╚████║██╔══██║░╚████╔╝░██║██║░░╚██╗██╔══██║░░░██║░░░██║██║░░██║██║╚████║
+//	██║░╚███║██║░░██║░░╚██╔╝░░██║╚██████╔╝██║░░██║░░░██║░░░██║╚█████╔╝██║░╚███║
+//	╚═╝░░╚══╝╚═╝░░╚═╝░░░╚═╝░░░╚═╝░╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░╚════╝░╚═╝░░╚══╝
+
 	class ItemMap: Inventory_Base
 	{
 	};
@@ -2802,11 +3120,25 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"compass_open_SoundSet", // does not work for some reason soundset broken ?
-			"compass_close_SoundSet" // does not work for some reason soundset broken ?
+			"compass_close_SoundSet"
 		};	
 	};
-// Optics
+	class OrienteeringCompass: ItemCompass
+	{
+		ItemMoveSounds[] = 
+		{
+			"compass_close_SoundSet"
+		};	
+	};
+
+
+//	░█████╗░██████╗░████████╗██╗░█████╗░░██████╗
+//	██╔══██╗██╔══██╗╚══██╔══╝██║██╔══██╗██╔════╝
+//	██║░░██║██████╔╝░░░██║░░░██║██║░░╚═╝╚█████╗░
+//	██║░░██║██╔═══╝░░░░██║░░░██║██║░░██╗░╚═══██╗
+//	╚█████╔╝██║░░░░░░░░██║░░░██║╚█████╔╝██████╔╝
+//	░╚════╝░╚═╝░░░░░░░░╚═╝░░░╚═╝░╚════╝░╚═════╝░
+
 	class Rangefinder: ItemOptics
 	{
 		ItemMoveSounds[] = 
@@ -2821,6 +3153,15 @@ class CfgVehicles
 			"PSO11Optic_pickup_SoundSet"
 		};	
 	};
+
+
+//	██████╗░░█████╗░██████╗░██╗░█████╗░
+//	██╔══██╗██╔══██╗██╔══██╗██║██╔══██╗
+//	██████╔╝███████║██║░░██║██║██║░░██║
+//	██╔══██╗██╔══██║██║░░██║██║██║░░██║
+//	██║░░██║██║░░██║██████╔╝██║╚█████╔╝
+//	╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░╚═╝░╚════╝░
+
 	class PersonalRadio: Transmitter_Base
 	{
 		ItemMoveSounds[] = 
@@ -2849,7 +3190,15 @@ class CfgVehicles
 			"PSO11Optic_drop_SoundSet"
 		};	
 	};
-// Tools
+
+
+//	████████╗░█████╗░░█████╗░██╗░░░░░░██████╗
+//	╚══██╔══╝██╔══██╗██╔══██╗██║░░░░░██╔════╝
+//	░░░██║░░░██║░░██║██║░░██║██║░░░░░╚█████╗░
+//	░░░██║░░░██║░░██║██║░░██║██║░░░░░░╚═══██╗
+//	░░░██║░░░╚█████╔╝╚█████╔╝███████╗██████╔╝
+//	░░░╚═╝░░░░╚════╝░░╚════╝░╚══════╝╚═════╝░
+
 	class Flashlight: Inventory_Base
 	{
 		ItemMoveSounds[] = 
@@ -2875,7 +3224,7 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"PSO11Optic_pickup_SoundSet"
+			"pickUpBloodBag_SoundSet"
 		};	
 	};
 	class MessTin: Inventory_Base
@@ -2904,7 +3253,7 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"PSO11Optic_drop_SoundSet"
+			"sewingkit_drop_SoundSet"
 		};	
 	};
 	class SewingKit: Inventory_Base
@@ -2925,15 +3274,17 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"sewingkit_pickup_SoundSet"
-		};	
+			"lockpicker_move_in_SoundSet",
+			"lockpicker_move_out_SoundSet"
+		};
 	};
 	class HandcuffKeys: Inventory_Base
 	{
 		ItemMoveSounds[] = 
 		{
-			"PSO11Optic_pickup_SoundSet"
-		};	
+			"lockpicker_move_in_SoundSet",
+			"lockpicker_move_out_SoundSet"
+		};
 	};
 	class Cassette: Inventory_Base
 	{
@@ -2967,7 +3318,7 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"crowbar_drop_SoundSet"
+			"pickUpCanisterGasolineLight_SoundSet"
 		};	
 	};
 	class Hammer: Inventory_Base
@@ -2981,7 +3332,7 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"crowbar_drop_SoundSet"
+			"woodaxe_drop_SoundSet"
 		};	
 	};
 	class Wrench: Inventory_Base
@@ -2995,8 +3346,8 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"wrench_drop_SoundSet"
-		};	
+			"crowbar_drop_SoundSet"
+		};
 	};
 	class Pipe: Inventory_Base
 	{
@@ -3023,43 +3374,47 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"pickUpBackPack_Plastic_Light_SoundSet"
+			"crowbar_drop_SoundSet"
 		};	
 	};
 	class KitchenKnife: Inventory_Base
 	{
 		ItemMoveSounds[] = 
 		{
-			"hatchet_pickup_light_SoundSet"
-		};	
+			"combatknife_drop_SoundSet"
+		};
+		ItemMoveSoundVolume = 0.75;
 	};
 	class SteakKnife: Inventory_Base
 	{
 		ItemMoveSounds[] = 
 		{
-			"hatchet_pickup_light_SoundSet"
-		};	
+			"combatknife_drop_SoundSet"
+		};
+		ItemMoveSoundVolume = 0.55;
 	};
 	class HayHook: Inventory_Base
 	{
 		ItemMoveSounds[] = 
 		{
-			"crowbar_drop_SoundSet"
+			"hatchet_pickup_SoundSet"
 		};	
 	};
 	class StoneKnife: Inventory_Base
 	{
 		ItemMoveSounds[] = 
 		{
-			"hatchet_pickup_light_SoundSet"
-		};	
+			"gravel_small_ext_drop_Soundset"	// there are no stone sounds in the game
+		};										// Let me guess... diggin' ...
+		ItemMoveSoundVolume = 0.35;
 	};
 	class Mace: Inventory_Base
 	{
 		ItemMoveSounds[] = 
 		{
 			"crowbar_drop_SoundSet"
-		};	
+		};
+		ItemMoveSoundVolume = 0.15;
 	};
 	class FarmingHoe: Inventory_Base
 	{
@@ -3101,29 +3456,29 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"woodaxe_drop_SoundSet"
+			"wrench_drop_SoundSet"
 		};	
 	};
 	class Broom: Inventory_Base
 	{
 		ItemMoveSounds[] = 
 		{
-			"woodaxe_drop_SoundSet"
+			"baseballbat_drop_SoundSet"
 		};	
 	};
 	class Paddle: Inventory_Base
 	{
 		ItemMoveSounds[] = 
 		{
-			"woodaxe_drop_SoundSet"
+			"baseballbat_drop_SoundSet"
 		};	
 	};
 	class ElectronicRepairKit: Inventory_Base
 	{
 		ItemMoveSounds[] = 
 		{
-			"sewingkit_drop_SoundSet"
-		};	
+			"PSO11Optic_drop_SoundSet"
+		};
 	};
 	class EpoxyPutty: Inventory_Base
 	{
@@ -3136,8 +3491,9 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"" // There are no useable stone sounds in the game
-		};	
+			"gravel_small_ext_drop_Soundset"	// There are no useable stone sounds in the game
+		};										// digging is my best friend, LOL - George
+		ItemMoveSoundVolume = 0.8;
 	};
 	class HandSaw: Inventory_Base
 	{
@@ -3146,7 +3502,16 @@ class CfgVehicles
 			"pickUpBackPack_Plastic_Light_SoundSet"
 		};	
 	};
-// Traps no not the ones where you ask if its gay or not to jack off to them - the ones that hurt you if step over them
+
+
+//	████████╗██████╗░░█████╗░██████╗░░██████╗
+//	╚══██╔══╝██╔══██╗██╔══██╗██╔══██╗██╔════╝
+//	░░░██║░░░██████╔╝███████║██████╔╝╚█████╗░
+//	░░░██║░░░██╔══██╗██╔══██║██╔═══╝░░╚═══██╗
+//	░░░██║░░░██║░░██║██║░░██║██║░░░░░██████╔╝
+//	░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░╚═════╝░
+//	Traps no not the ones where you ask if its gay or not to jack off to them - the ones that hurt you if step over them
+
 	class BearTrap: Trap_Base
 	{
 		ItemMoveSounds[] = 
@@ -3162,9 +3527,7 @@ class CfgVehicles
 		};	
 	};
 	class SmallFishTrap: Trap_Base
-	{	// This .. is actually not used
-		// why am i still adding it ?
-		// because im clinically insane
+	{
 		ItemMoveSounds[] = 
 		{
 			"WaterBottle_pickup_SoundSet"
@@ -3174,7 +3537,7 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"pickUpCourierBag_Light_SoundSet"
+			"pickUpPlantMaterial_SoundSet"
 		};	
 	};
 	class TripwireTrap: Trap_Base
@@ -3186,14 +3549,22 @@ class CfgVehicles
 		};	
 	};
 	class RabbitSnareTrap: Trap_Base
-	{	// I miss those - need to bring them back
+	{
 		ItemMoveSounds[] = 
 		{
 			"hatchet_pickup_SoundSet",
 			"baseballbat_drop_SoundSet"
 		};	
-	};	// Talking about it - i already did and turned them into chicken traps lol
-// Vehicle Parts
+	};
+
+
+//	██╗░░░██╗███████╗██╗░░██╗██╗░█████╗░██╗░░░░░███████╗	██████╗░░█████╗░██████╗░████████╗░██████╗
+//	██║░░░██║██╔════╝██║░░██║██║██╔══██╗██║░░░░░██╔════╝	██╔══██╗██╔══██╗██╔══██╗╚══██╔══╝██╔════╝
+//	╚██╗░██╔╝█████╗░░███████║██║██║░░╚═╝██║░░░░░█████╗░░	██████╔╝███████║██████╔╝░░░██║░░░╚█████╗░
+//	░╚████╔╝░██╔══╝░░██╔══██║██║██║░░██╗██║░░░░░██╔══╝░░	██╔═══╝░██╔══██║██╔══██╗░░░██║░░░░╚═══██╗
+//	░░╚██╔╝░░███████╗██║░░██║██║╚█████╔╝███████╗███████╗	██║░░░░░██║░░██║██║░░██║░░░██║░░░██████╔╝
+//	░░░╚═╝░░░╚══════╝╚═╝░░╚═╝╚═╝░╚════╝░╚══════╝╚══════╝	╚═╝░░░░░╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░╚═════╝░
+
 	class TruckBattery: Inventory_Base
 	{
 		ItemMoveSounds[] = 
@@ -3206,7 +3577,8 @@ class CfgVehicles
 		ItemMoveSounds[] = 
 		{
 			"carbattery_drop_SoundSet"
-		};	
+		};
+		ItemMoveSoundVolume = 0.5;
 	};
 	class BrakeFluid: Inventory_Base
 	{
@@ -3265,7 +3637,16 @@ class CfgVehicles
 			"pickUpCanisterGasoline_SoundSet"
 		};	
 	};
-// DZ_Vehicles_Wheeled - Merkava MKII when ?
+
+
+//	██╗░░░██╗███████╗██╗░░██╗██╗░█████╗░██╗░░░░░███████╗	░█████╗░████████╗████████╗░█████╗░░█████╗░██╗░░██╗███╗░░░███╗███████╗███╗░░██╗████████╗░██████╗
+//	██║░░░██║██╔════╝██║░░██║██║██╔══██╗██║░░░░░██╔════╝	██╔══██╗╚══██╔══╝╚══██╔══╝██╔══██╗██╔══██╗██║░░██║████╗░████║██╔════╝████╗░██║╚══██╔══╝██╔════╝
+//	╚██╗░██╔╝█████╗░░███████║██║██║░░╚═╝██║░░░░░█████╗░░	███████║░░░██║░░░░░░██║░░░███████║██║░░╚═╝███████║██╔████╔██║█████╗░░██╔██╗██║░░░██║░░░╚█████╗░
+//	░╚████╔╝░██╔══╝░░██╔══██║██║██║░░██╗██║░░░░░██╔══╝░░	██╔══██║░░░██║░░░░░░██║░░░██╔══██║██║░░██╗██╔══██║██║╚██╔╝██║██╔══╝░░██║╚████║░░░██║░░░░╚═══██╗
+//	░░╚██╔╝░░███████╗██║░░██║██║╚█████╔╝███████╗███████╗	██║░░██║░░░██║░░░░░░██║░░░██║░░██║╚█████╔╝██║░░██║██║░╚═╝░██║███████╗██║░╚███║░░░██║░░░██████╔╝
+//	░░░╚═╝░░░╚══════╝╚═╝░░╚═╝╚═╝░╚════╝░╚══════╝╚══════╝	╚═╝░░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝╚══════╝╚═╝░░╚══╝░░░╚═╝░░░╚═════╝░
+//	DZ_Vehicles_Wheeled - Merkava MKII when ?
+
 	class CarWheel: Inventory_Base
 	{
 		ItemMoveSounds[] = 
@@ -3280,155 +3661,193 @@ class CfgVehicles
 			"hatchbackdoors_driver_pickup_SoundSet"
 		};	
 	};
-// Ammoboxes - need to add each one manually ... OOF
+
+
+//	░█████╗░███╗░░░███╗███╗░░░███╗░█████╗░██████╗░░█████╗░██╗░░██╗███████╗░██████╗
+//	██╔══██╗████╗░████║████╗░████║██╔══██╗██╔══██╗██╔══██╗╚██╗██╔╝██╔════╝██╔════╝
+//	███████║██╔████╔██║██╔████╔██║██║░░██║██████╦╝██║░░██║░╚███╔╝░█████╗░░╚█████╗░
+//	██╔══██║██║╚██╔╝██║██║╚██╔╝██║██║░░██║██╔══██╗██║░░██║░██╔██╗░██╔══╝░░░╚═══██╗
+//	██║░░██║██║░╚═╝░██║██║░╚═╝░██║╚█████╔╝██████╦╝╚█████╔╝██╔╝╚██╗███████╗██████╔╝
+//	╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░░░░╚═╝░╚════╝░╚═════╝░░╚════╝░╚═╝░░╚═╝╚══════╝╚═════╝░
+//	need to add each one manually ... OOF
+
 	class AmmoBox_556x45_20Rnd: Box_Base
 	{
 		ItemMoveSounds[] = 
 		{
 			"ammoboxUnpack_SoundSet"
-		};	
+		};
+		ItemMoveSoundVolume = 0.75;
 	};
 	class AmmoBox_556x45Tracer_20Rnd: Box_Base
 	{
 		ItemMoveSounds[] = 
 		{
 			"ammoboxUnpack_SoundSet"
-		};	
+		};
+		ItemMoveSoundVolume = 0.75;
 	};
 	class AmmoBox_308Win_20Rnd: Box_Base
 	{
 		ItemMoveSounds[] = 
 		{
 			"ammoboxUnpack_SoundSet"
-		};	
+		};
+		ItemMoveSoundVolume = 0.75;
 	};
 	class AmmoBox_308WinTracer_20Rnd: Box_Base
 	{
 		ItemMoveSounds[] = 
 		{
 			"ammoboxUnpack_SoundSet"
-		};	
+		};
+		ItemMoveSoundVolume = 0.75;
 	};
 	class AmmoBox_762x54_20Rnd: Box_Base
 	{
 		ItemMoveSounds[] = 
 		{
 			"ammoboxUnpack_SoundSet"
-		};	
+		};
+		ItemMoveSoundVolume = 0.75;
 	};
 	class AmmoBox_762x54Tracer_20Rnd: Box_Base
 	{
 		ItemMoveSounds[] = 
 		{
 			"ammoboxUnpack_SoundSet"
-		};	
+		};
+		ItemMoveSoundVolume = 0.75;
 	};
 	class AmmoBox_762x39_20Rnd: Box_Base
 	{
 		ItemMoveSounds[] = 
 		{
 			"ammoboxUnpack_SoundSet"
-		};	
+		};
+		ItemMoveSoundVolume = 0.75;
 	};
 	class AmmoBox_762x39Tracer_20Rnd: Box_Base
 	{
 		ItemMoveSounds[] = 
 		{
 			"ammoboxUnpack_SoundSet"
-		};	
+		};
+		ItemMoveSoundVolume = 0.75;
 	};
 	class AmmoBox_22_50Rnd: Box_Base
 	{
 		ItemMoveSounds[] = 
 		{
 			"ammoboxUnpack_SoundSet"
-		};	
+		};
+		ItemMoveSoundVolume = 0.75;
 	};
 	class AmmoBox_357_20Rnd: Box_Base
 	{
 		ItemMoveSounds[] = 
 		{
 			"ammoboxUnpack_SoundSet"
-		};	
+		};
+		ItemMoveSoundVolume = 0.75;
 	};
 	class AmmoBox_45ACP_25rnd: Box_Base
 	{
 		ItemMoveSounds[] = 
 		{
 			"ammoboxUnpack_SoundSet"
-		};	
+		};
+		ItemMoveSoundVolume = 0.75;
 	};
 	class AmmoBox_9x19_25rnd: Box_Base
 	{
 		ItemMoveSounds[] = 
 		{
 			"ammoboxUnpack_SoundSet"
-		};	
+		};
+		ItemMoveSoundVolume = 0.75;
 	};
 	class AmmoBox_380_35rnd: Box_Base
 	{
 		ItemMoveSounds[] = 
 		{
 			"ammoboxUnpack_SoundSet"
-		};	
+		};
+		ItemMoveSoundVolume = 0.75;
 	};
 	class AmmoBox_00buck_10rnd: Box_Base
 	{
 		ItemMoveSounds[] = 
 		{
 			"ammoboxUnpack_SoundSet"
-		};	
+		};
+		ItemMoveSoundVolume = 0.75;
 	};
 	class AmmoBox_12gaSlug_10Rnd: Box_Base
 	{
 		ItemMoveSounds[] = 
 		{
 			"ammoboxUnpack_SoundSet"
-		};	
+		};
+		ItemMoveSoundVolume = 0.75;
 	};
 	class AmmoBox_12gaRubberSlug_10Rnd: Box_Base
 	{
 		ItemMoveSounds[] = 
 		{
 			"ammoboxUnpack_SoundSet"
-		};	
+		};
+		ItemMoveSoundVolume = 0.75;
 	};
 	class AmmoBox_12gaBeanbag_10Rnd: Box_Base
 	{
 		ItemMoveSounds[] = 
 		{
 			"ammoboxUnpack_SoundSet"
-		};	
+		};
+		ItemMoveSoundVolume = 0.75;
 	};
 	class AmmoBox_545x39_20Rnd: Box_Base
 	{
 		ItemMoveSounds[] = 
 		{
 			"ammoboxUnpack_SoundSet"
-		};	
+		};
+		ItemMoveSoundVolume = 0.75;
 	};
 	class AmmoBox_545x39Tracer_20Rnd: Box_Base
 	{
 		ItemMoveSounds[] = 
 		{
 			"ammoboxUnpack_SoundSet"
-		};	
+		};
+		ItemMoveSoundVolume = 0.75;
 	};
 	class AmmoBox_9x39AP_20Rnd: Box_Base
 	{
 		ItemMoveSounds[] = 
 		{
 			"ammoboxUnpack_SoundSet"
-		};	
+		};
+		ItemMoveSoundVolume = 0.75;
 	};
 	class AmmoBox_9x39_20Rnd: Box_Base
 	{
 		ItemMoveSounds[] = 
 		{
 			"ammoboxUnpack_SoundSet"
-		};	
+		};
+		ItemMoveSoundVolume = 0.75;
 	};
-// Weapon Lights
+
+
+//	░██╗░░░░░░░██╗███████╗░█████╗░██████╗░░█████╗░███╗░░██╗		██╗░░░░░██╗░██████╗░██╗░░██╗████████╗░██████╗
+//	░██║░░██╗░░██║██╔════╝██╔══██╗██╔══██╗██╔══██╗████╗░██║		██║░░░░░██║██╔════╝░██║░░██║╚══██╔══╝██╔════╝
+//	░╚██╗████╗██╔╝█████╗░░███████║██████╔╝██║░░██║██╔██╗██║		██║░░░░░██║██║░░██╗░███████║░░░██║░░░╚█████╗░
+//	░░████╔═████║░██╔══╝░░██╔══██║██╔═══╝░██║░░██║██║╚████║		██║░░░░░██║██║░░╚██╗██╔══██║░░░██║░░░░╚═══██╗
+//	░░╚██╔╝░╚██╔╝░███████╗██║░░██║██║░░░░░╚█████╔╝██║░╚███║		███████╗██║╚██████╔╝██║░░██║░░░██║░░░██████╔╝
+//	░░░╚═╝░░░╚═╝░░╚══════╝╚═╝░░╚═╝╚═╝░░░░░░╚════╝░╚═╝░░╚══╝		╚══════╝╚═╝░╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═════╝░
+
 	class UniversalLight: Switchable_Base
 	{
 		ItemMoveSounds[] = 
@@ -3443,13 +3862,21 @@ class CfgVehicles
 			"PSO11Optic_pickup_SoundSet"
 		};	
 	};
-// Muzzle Devices
+
+
+//	███╗░░░███╗██╗░░░██╗███████╗███████╗██╗░░░░░███████╗░██████╗
+//	████╗░████║██║░░░██║╚════██║╚════██║██║░░░░░██╔════╝██╔════╝
+//	██╔████╔██║██║░░░██║░░███╔═╝░░███╔═╝██║░░░░░█████╗░░╚█████╗░
+//	██║╚██╔╝██║██║░░░██║██╔══╝░░██╔══╝░░██║░░░░░██╔══╝░░░╚═══██╗
+//	██║░╚═╝░██║╚██████╔╝███████╗███████╗███████╗███████╗██████╔╝
+//	╚═╝░░░░░╚═╝░╚═════╝░╚══════╝╚══════╝╚══════╝╚══════╝╚═════╝░
+
 	class AK_Bayonet: Inventory_Base
 	{
 		ItemMoveSounds[] = 
 		{
 			"CombatKnife_drop_SoundSet"
-		};	
+		};
 	};
 	class M9A1_Bayonet: Inventory_Base
 	{	// I actually own this in reallife
@@ -3521,11 +3948,26 @@ class CfgVehicles
 			"PSO11Optic_pickup_SoundSet"
 		};	
 	};
-//Optics
-	// lol all included with ItemOptics 
 	
-// Attachment Support
-	// god ... none of these have dropsounds ... WHO NEEDS DROPSOUNDS IF YOU CAN JUST HAVE NONE
+
+//	░█████╗░██████╗░████████╗██╗░█████╗░░██████╗
+//	██╔══██╗██╔══██╗╚══██╔══╝██║██╔══██╗██╔════╝
+//	██║░░██║██████╔╝░░░██║░░░██║██║░░╚═╝╚█████╗░
+//	██║░░██║██╔═══╝░░░░██║░░░██║██║░░██╗░╚═══██╗
+//	╚█████╔╝██║░░░░░░░░██║░░░██║╚█████╔╝██████╔╝
+//	░╚════╝░╚═╝░░░░░░░░╚═╝░░░╚═╝░╚════╝░╚═════╝░
+//	lol all included with ItemOptics
+
+
+
+//	░█████╗░████████╗████████╗░█████╗░░█████╗░██╗░░██╗███╗░░░███╗███████╗███╗░░██╗████████╗░██████╗
+//	██╔══██╗╚══██╔══╝╚══██╔══╝██╔══██╗██╔══██╗██║░░██║████╗░████║██╔════╝████╗░██║╚══██╔══╝██╔════╝
+//	███████║░░░██║░░░░░░██║░░░███████║██║░░╚═╝███████║██╔████╔██║█████╗░░██╔██╗██║░░░██║░░░╚█████╗░
+//	██╔══██║░░░██║░░░░░░██║░░░██╔══██║██║░░██╗██╔══██║██║╚██╔╝██║██╔══╝░░██║╚████║░░░██║░░░░╚═══██╗
+//	██║░░██║░░░██║░░░░░░██║░░░██║░░██║╚█████╔╝██║░░██║██║░╚═╝░██║███████╗██║░╚███║░░░██║░░░██████╔╝
+//	╚═╝░░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝╚══════╝╚═╝░░╚══╝░░░╚═╝░░░╚═════╝░
+// god ... none of these have dropsounds ... WHO NEEDS DROPSOUNDS IF YOU CAN JUST HAVE NONE
+
 	class M4_OEBttstck: Inventory_Base
 	{
 		ItemMoveSounds[] = 
@@ -3556,6 +3998,7 @@ class CfgVehicles
 	};
 	class AK74_WoodBttstck: Inventory_Base
 	{	// why is this a different classname ?
+		// bcs of different "recoilModifier" and "swayModifier" :)
 		ItemMoveSounds[] = 
 		{
 			"pickUpCableReelLight_SoundSet"
@@ -3722,20 +4165,36 @@ class CfgVehicles
 			"Cloth_Back_shortmove_ghillie_Soundset"
 		};	
 	};
-// Explosives
+
+
+//	███████╗██╗░░██╗██████╗░██╗░░░░░░█████╗░░██████╗██╗██╗░░░██╗███████╗░██████╗
+//	██╔════╝╚██╗██╔╝██╔══██╗██║░░░░░██╔══██╗██╔════╝██║██║░░░██║██╔════╝██╔════╝
+//	█████╗░░░╚███╔╝░██████╔╝██║░░░░░██║░░██║╚█████╗░██║╚██╗░██╔╝█████╗░░╚█████╗░
+//	██╔══╝░░░██╔██╗░██╔═══╝░██║░░░░░██║░░██║░╚═══██╗██║░╚████╔╝░██╔══╝░░░╚═══██╗
+//	███████╗██╔╝╚██╗██║░░░░░███████╗╚█████╔╝██████╔╝██║░░╚██╔╝░░███████╗██████╔╝
+//	╚══════╝╚═╝░░╚═╝╚═╝░░░░░╚══════╝░╚════╝░╚═════╝░╚═╝░░░╚═╝░░░╚══════╝╚═════╝░
+
 	class Grenade_Base: Inventory_Base
 	{
 		ItemMoveSounds[] = 
 		{
-			"MagRifle_empty_in_SoundSet"
+			"Zucchini_pickup_SoundSet"
 		};	
 	};
-// Blade 
+
+
+//	░██████╗██╗░░██╗░█████╗░██████╗░██████╗░  ███╗░░░███╗███████╗██╗░░░░░███████╗███████╗
+//	██╔════╝██║░░██║██╔══██╗██╔══██╗██╔══██╗  ████╗░████║██╔════╝██║░░░░░██╔════╝██╔════╝
+//	╚█████╗░███████║███████║██████╔╝██████╔╝  ██╔████╔██║█████╗░░██║░░░░░█████╗░░█████╗░░
+//	░╚═══██╗██╔══██║██╔══██║██╔══██╗██╔═══╝░  ██║╚██╔╝██║██╔══╝░░██║░░░░░██╔══╝░░██╔══╝░░
+//	██████╔╝██║░░██║██║░░██║██║░░██║██║░░░░░  ██║░╚═╝░██║███████╗███████╗███████╗███████╗
+//	╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░  ╚═╝░░░░░╚═╝╚══════╝╚══════╝╚══════╝╚══════╝
+ 
 	class WoodAxe: Inventory_Base
 	{
 		ItemMoveSounds[] = 
 		{
-			"woodaxe_drop_SoundSet"
+			"hatchet_pickup_SoundSet"
 		};	
 	};
 	class Hatchet: Inventory_Base
@@ -3749,14 +4208,14 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"woodaxe_drop_SoundSet"
+			"hatchet_pickup_SoundSet"
 		};	
 	};
 	class Cleaver: Inventory_Base
 	{
 		ItemMoveSounds[] = 
 		{
-			"hatchet_pickup_SoundSet"
+			"hatchet_pickup_light_SoundSet"
 		};	
 	};
 	class CombatKnife: Inventory_Base
@@ -3764,14 +4223,16 @@ class CfgVehicles
 		ItemMoveSounds[] = 
 		{
 			"combatknife_drop_SoundSet"
-		};	
+		};
+		ItemMoveSoundVolume = 0.45;
 	};
 	class HuntingKnife: Inventory_Base
 	{
 		ItemMoveSounds[] = 
 		{
 			"combatknife_drop_SoundSet"
-		};	
+		};
+		ItemMoveSoundVolume = 0.55;
 	};
 	class Machete: Inventory_Base
 	{
@@ -3791,17 +4252,55 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"pickUpShovel_SoundSet"
+			"hatchet_pickup_SoundSet"
 		};	
 	};
 	class Sword: Inventory_Base
 	{
 		ItemMoveSounds[] = 
 		{
-			"pickUpShovel_SoundSet"
-		};	
+			"p_2hd_erc_medievalsword_suicide_cancelled_c"
+		};
 	};
-// Blunt
+	class KukriKnife: Inventory_Base
+	{
+		ItemMoveSounds[] = 
+		{
+			"combatknife_drop_SoundSet"
+		};
+		ItemMoveSoundVolume = 0.75;
+	};
+	class FangeKnife: Inventory_Base
+	{
+		ItemMoveSounds[] = 
+		{
+			"combatknife_drop_SoundSet"
+		};
+		ItemMoveSoundVolume = 0.75;
+	};
+	class CrudeMachete: Inventory_Base
+	{
+		ItemMoveSounds[] = 
+		{
+			"combatknife_drop_SoundSet"
+		};
+	};
+	class OrientalMachete: Inventory_Base
+	{
+		ItemMoveSounds[] = 
+		{
+			"combatknife_drop_SoundSet"
+		};
+	};
+
+
+//	██████╗░██╗░░░░░██╗░░░██╗███╗░░██╗████████╗  ███╗░░░███╗███████╗██╗░░░░░███████╗███████╗
+//	██╔══██╗██║░░░░░██║░░░██║████╗░██║╚══██╔══╝  ████╗░████║██╔════╝██║░░░░░██╔════╝██╔════╝
+//	██████╦╝██║░░░░░██║░░░██║██╔██╗██║░░░██║░░░  ██╔████╔██║█████╗░░██║░░░░░█████╗░░█████╗░░
+//	██╔══██╗██║░░░░░██║░░░██║██║╚████║░░░██║░░░  ██║╚██╔╝██║██╔══╝░░██║░░░░░██╔══╝░░██╔══╝░░
+//	██████╦╝███████╗╚██████╔╝██║░╚███║░░░██║░░░  ██║░╚═╝░██║███████╗███████╗███████╗███████╗
+//	╚═════╝░╚══════╝░╚═════╝░╚═╝░░╚══╝░░░╚═╝░░░  ╚═╝░░░░░╚═╝╚══════╝╚══════╝╚══════╝╚══════╝
+
 	class BaseballBat: Inventory_Base
 	{
 		ItemMoveSounds[] = 
@@ -3818,18 +4317,27 @@ class CfgVehicles
 			"hatchet_pickup_light_SoundSet"
 		};	
 	};
+	class BarbedBaseballBat: Inventory_Base
+	{
+		ItemMoveSounds[] = 
+		{
+			"hatchet_pickup_SoundSet",
+			"hatchet_pickup_light_SoundSet"
+		};	
+	};
 	class PipeWrench: Inventory_Base
 	{
 		ItemMoveSounds[] = 
 		{
-			"crowbar_drop_SoundSet"
-		};	
+			"IMS_PipeWrench_SoundSet"
+		};
+		ItemMoveSoundVolume = 0.60;
 	};
 	class BrassKnuckles_ColorBase: Inventory_Base
 	{
 		ItemMoveSounds[] = 
 		{
-			"crowbar_drop_SoundSet"
+			"wrench_drop_SoundSet"
 		};	
 	};
 	class TelescopicBaton: Inventory_Base
@@ -3837,32 +4345,39 @@ class CfgVehicles
 		ItemMoveSounds[] = 
 		{
 			"Baton_deploy_SoundSet"
-		};	
+		};
+		ItemMoveSoundVolume = 0.1;
 	};
 	class HockeyStick: Inventory_Base
 	{
 		ItemMoveSounds[] = 
 		{
-			"hatchet_pickup_SoundSet",
-			"hatchet_pickup_light_SoundSet"
+			"hatchet_pickup_SoundSet"
 		};	
 	};
 	class NewHockeyStick: Inventory_Base
 	{
 		ItemMoveSounds[] = 
 		{
-			"hatchet_pickup_SoundSet",
-			"hatchet_pickup_light_SoundSet"
+			"hatchet_pickup_SoundSet"
 		};	
 	};
 	class PoliceBaton: Inventory_Base
 	{
 		ItemMoveSounds[] = 
 		{
-			"hatchet_pickup_SoundSet",
-			"hatchet_pickup_light_SoundSet"
+			"hatchet_pickup_SoundSet"
 		};	
 	};
+
+
+//	██████╗░░█████╗░░██╗░░░░░░░██╗███████╗██████╗░███████╗██████╗░  ███╗░░░███╗███████╗██╗░░░░░███████╗███████╗
+//	██╔══██╗██╔══██╗░██║░░██╗░░██║██╔════╝██╔══██╗██╔════╝██╔══██╗  ████╗░████║██╔════╝██║░░░░░██╔════╝██╔════╝
+//	██████╔╝██║░░██║░╚██╗████╗██╔╝█████╗░░██████╔╝█████╗░░██║░░██║  ██╔████╔██║█████╗░░██║░░░░░█████╗░░█████╗░░
+//	██╔═══╝░██║░░██║░░████╔═████║░██╔══╝░░██╔══██╗██╔══╝░░██║░░██║  ██║╚██╔╝██║██╔══╝░░██║░░░░░██╔══╝░░██╔══╝░░
+//	██║░░░░░╚█████╔╝░░╚██╔╝░╚██╔╝░███████╗██║░░██║███████╗██████╔╝  ██║░╚═╝░██║███████╗███████╗███████╗███████╗
+//	╚═╝░░░░░░╚════╝░░░░╚═╝░░░╚═╝░░╚══════╝╚═╝░░╚═╝╚══════╝╚═════╝░  ╚═╝░░░░░╚═╝╚══════╝╚══════╝╚══════╝╚══════╝
+
 	class Chainsaw: Switchable_Base
 	{
 		ItemMoveSounds[] = 
@@ -3874,8 +4389,7 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"hatchet_pickup_SoundSet",
-			"hatchet_pickup_light_SoundSet"
+			"hatchet_pickup_SoundSet"
 		};	
 	};
 	class StunBaton: Powered_Base
@@ -3888,15 +4402,23 @@ class CfgVehicles
 	};
 };
 
-
 class CfgMagazines
 {
+
+
+//	░█████╗░███╗░░░███╗███╗░░░███╗██╗░░░██╗███╗░░██╗██╗████████╗██╗░█████╗░███╗░░██╗
+//	██╔══██╗████╗░████║████╗░████║██║░░░██║████╗░██║██║╚══██╔══╝██║██╔══██╗████╗░██║
+//	███████║██╔████╔██║██╔████╔██║██║░░░██║██╔██╗██║██║░░░██║░░░██║██║░░██║██╔██╗██║
+//	██╔══██║██║╚██╔╝██║██║╚██╔╝██║██║░░░██║██║╚████║██║░░░██║░░░██║██║░░██║██║╚████║
+//	██║░░██║██║░╚═╝░██║██║░╚═╝░██║╚██████╔╝██║░╚███║██║░░░██║░░░██║╚█████╔╝██║░╚███║
+//	╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░░░░╚═╝░╚═════╝░╚═╝░░╚══╝╚═╝░░░╚═╝░░░╚═╝░╚════╝░╚═╝░░╚══╝
+
 	class DefaultMagazine;
 	class Magazine_Base: DefaultMagazine
 	{
 		ItemMoveSounds[] = 
 		{
-			"MagRifle_empty_in_SoundSet"
+			"IMS_MagazineBase_Soundset"
 		};	
 	};
 	class Ammunition_Base: Magazine_Base
@@ -3986,7 +4508,15 @@ class CfgMagazines
 			"IMS_Item_Move_Small"
 		};	
 	};
-// Magazine
+	
+
+//	███╗░░░███╗░█████╗░░██████╗░░█████╗░███████╗██╗███╗░░██╗███████╗░██████╗
+//	████╗░████║██╔══██╗██╔════╝░██╔══██╗╚════██║██║████╗░██║██╔════╝██╔════╝
+//	██╔████╔██║███████║██║░░██╗░███████║░░███╔═╝██║██╔██╗██║█████╗░░╚█████╗░
+//	██║╚██╔╝██║██╔══██║██║░░╚██╗██╔══██║██╔══╝░░██║██║╚████║██╔══╝░░░╚═══██╗
+//	██║░╚═╝░██║██║░░██║╚██████╔╝██║░░██║███████╗██║██║░╚███║███████╗██████╔╝
+//	╚═╝░░░░░╚═╝╚═╝░░╚═╝░╚═════╝░╚═╝░░╚═╝╚══════╝╚═╝╚═╝░░╚══╝╚══════╝╚═════╝░
+
 	class Mag_357Speedloader_6Rnd: Magazine_Base
 	{
 		ItemMoveSounds[] = 
@@ -4078,114 +4608,4 @@ class cfgWeapons
 			"pickUpPistol_SoundSet"
 		};	
 	};
-};
-
-
-class CfgSoundShaders
-{
-    class IMS_GrenadeBop_Base
-    {
-        volume = 3;
-		range = 25;
-        radius = 0.01;
-    };
-	
-	class IMS_GrenadeBop_Concrete_SoundShader: IMS_GrenadeBop_Base
-    {
-        samples[] = 
-        {
-            {"DZ\sounds\Characters\movement\footstep\asphalt_ext\shared\sprinterc_7", 1},
-            {"DZ\sounds\Characters\movement\footstep\asphalt_ext\shared\sprinterc_5", 1},
-            {"DZ\sounds\Characters\movement\footstep\asphalt_ext\shared\walkerc_5", 1},
-            {"DZ\sounds\Characters\movement\footstep\asphalt_ext\shared\sprinterc_2", 1},
-            {"DZ\sounds\Characters\movement\footstep\asphalt_ext\shared\sprinterc_6", 1}
-        };
-    };
-	
-	class IMS_GrenadeBop_Metal_SoundShader: IMS_GrenadeBop_Base
-    {
-        samples[] = 
-        {
-            {"DZ\sounds\Characters\movement\footstep\metal_thick_int\shared\sprinterc_3", 1},
-            {"DZ\sounds\Characters\movement\footstep\metal_thick_int\shared\sprinterc_4", 1},
-            {"DZ\sounds\Characters\movement\footstep\metal_thick_int\shared\sprinterc_6", 1},
-            {"DZ\sounds\Characters\movement\footstep\metal_thick_int\shared\sprinterc_7", 1},
-            {"DZ\sounds\Characters\movement\footstep\metal_thick_int\shared\sprinterc_5", 1}
-        };
-    };
-	
-	class IMS_Grebadenop_Dirt_SoundShader: IMS_GrenadeBop_Base
-    {
-        volume = 50;
-        samples[] = 
-        {
-            {"DZ\sounds\Characters\movement\footstep\dirt_int\shared\runerc_8", 1},
-            {"DZ\sounds\Characters\movement\footstep\dirt_int\shared\sprinterc_1", 1},
-			{"DZ\sounds\Characters\movement\footstep\dirt_int\shared\walkerc_3", 1},
-			{"DZ\sounds\Characters\movement\footstep\dirt_int\shared\runerc_3", 1},
-			{"DZ\sounds\Characters\movement\footstep\dirt_int\shared\sprinterc_4", 1}
-        };
-    };
-	
-	class IMS_Grebadenop_Gravel_SoundShader: IMS_GrenadeBop_Base
-    {
-        samples[] = 
-        {
-            {"DZ\sounds\Characters\movement\footstep\gravel_small_ext\shared\runerc_1", 1},
-            {"DZ\sounds\Characters\movement\footstep\gravel_small_ext\shared\runerc_2", 1},
-            {"DZ\sounds\Characters\movement\footstep\gravel_small_ext\shared\sprinterc_3", 1},
-            {"DZ\sounds\Characters\movement\footstep\gravel_small_ext\shared\sprinterc_3", 1},
-            {"DZ\sounds\Characters\movement\footstep\gravel_small_ext\shared\sprinterc_2", 1}
-        };
-    };
-	
-	class IMS_Grebadenop_Grass_SoundShader: IMS_GrenadeBop_Base
-    {
-        samples[] = 
-        {
-            {"DZ\sounds\Characters\movement\footstep\cp_grass_tall\boots\scufferc_1", 1},
-            {"DZ\sounds\Characters\movement\footstep\cp_grass_tall\boots\scufferc_3", 1},
-			{"DZ\sounds\Characters\movement\footstep\cp_grass_tall\boots\scufferc_5", 1},
-			{"DZ\sounds\Characters\movement\footstep\cp_grass_tall\boots\scufferc_7", 1},
-			{"DZ\sounds\Characters\movement\footstep\cp_grass_tall\boots\scufferc_8", 1}
-        };
-    };
-};
-
-class CfgSoundSets
-{
-    class IMS_GrenadeBop_Base
-    {
-		sound3DProcessingType = "character3DProcessingType";
-		volumeCurve = "characterAttenuationCurve";
-		spatial = 1;
-		doppler = 0;
-		loop = 0;
-        distanceFilter = "defaultDistanceFilter";
-    };
-
-    class IMS_GrenadeBop_Metal: IMS_GrenadeBop_Base
-    {
-        soundShaders[] = {"IMS_GrenadeBop_Metal_SoundShader"};
-    };
-	
-    class IMS_GrenadeBop_Concrete: IMS_GrenadeBop_Base
-    {
-        soundShaders[] = {"IMS_GrenadeBop_Concrete_SoundShader"};
-    };
-	
-    class IMS_GrenadeBop_Dirt: IMS_GrenadeBop_Base
-    {
-        soundShaders[] = {"IMS_Grebadenop_Dirt_SoundShader"};
-    };
-	
-    class IMS_GrenadeBop_Gravel: IMS_GrenadeBop_Base
-    {
-        soundShaders[] = {"IMS_Grebadenop_Gravel_SoundShader"};
-    };
-	
-    class IMS_GrenadeBop_Grass: IMS_GrenadeBop_Base
-    {
-        soundShaders[] = {"IMS_Grebadenop_Grass_SoundShader"};
-    };
 };
