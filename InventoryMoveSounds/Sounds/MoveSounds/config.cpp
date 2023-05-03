@@ -1886,6 +1886,7 @@ class CfgVehicles
 	};
 	class MetalPlate: Inventory_Base
 	{
+    ItemMoveSoundVolume = 0.5;
 		ItemMoveSounds[] = 
 		{
 			"crowbar_drop_SoundSet"
@@ -2039,6 +2040,7 @@ class CfgVehicles
 	};
 	class Tripod: Inventory_Base
 	{
+    ItemMoveSoundVolume = 0.5;
 		ItemMoveSounds[] = 
 		{
 			"crowbar_drop_SoundSet"
@@ -2958,6 +2960,7 @@ class CfgVehicles
 	};
 	class Crowbar: Inventory_Base
 	{
+    ItemMoveSoundVolume = 0.5;
 		ItemMoveSounds[] = 
 		{
 			"crowbar_drop_SoundSet"
@@ -2965,6 +2968,7 @@ class CfgVehicles
 	};
 	class FireExtinguisher: Inventory_Base
 	{
+    ItemMoveSoundVolume = 0.5;
 		ItemMoveSounds[] = 
 		{
 			"crowbar_drop_SoundSet"
@@ -2981,7 +2985,7 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"crowbar_drop_SoundSet"
+			"woodaxe_drop_SoundSet"
 		};	
 	};
 	class Wrench: Inventory_Base
@@ -3000,6 +3004,7 @@ class CfgVehicles
 	};
 	class Pipe: Inventory_Base
 	{
+    ItemMoveSoundVolume = 0.5;
 		ItemMoveSounds[] = 
 		{
 			"crowbar_drop_SoundSet"
@@ -3042,6 +3047,7 @@ class CfgVehicles
 	};
 	class HayHook: Inventory_Base
 	{
+    ItemMoveSoundVolume = 0.5;
 		ItemMoveSounds[] = 
 		{
 			"crowbar_drop_SoundSet"
@@ -3056,6 +3062,7 @@ class CfgVehicles
 	};
 	class Mace: Inventory_Base
 	{
+    ItemMoveSoundVolume = 0.5;
 		ItemMoveSounds[] = 
 		{
 			"crowbar_drop_SoundSet"
@@ -3820,6 +3827,7 @@ class CfgVehicles
 	};
 	class PipeWrench: Inventory_Base
 	{
+    ItemMoveSoundVolume = 0.5;
 		ItemMoveSounds[] = 
 		{
 			"crowbar_drop_SoundSet"
@@ -3829,7 +3837,7 @@ class CfgVehicles
 	{
 		ItemMoveSounds[] = 
 		{
-			"crowbar_drop_SoundSet"
+			"wrench_drop_SoundSet"
 		};	
 	};
 	class TelescopicBaton: Inventory_Base
